@@ -7,7 +7,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 
-fp = FontProperties(fname='C:\Windows\Fonts\meiryo.ttc', size=14)
+fp = FontProperties(fname='/Library/Fonts/meiryo.ttc', size=14)
 
 if len(sys.argv)!=2:
     print("Usage: $ python %s csvFileName" % sys.argv[0])
